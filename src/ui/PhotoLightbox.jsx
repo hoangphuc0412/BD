@@ -117,10 +117,12 @@ export default function PhotoLightbox() {
               className="mt-6 max-w-xl px-4 text-center"
             >
               <p className="font-hand text-[1.6rem] leading-tight text-champagne sm:text-[1.9rem]">{photo.caption}</p>
-              <p className="mt-2 font-sans text-[8px] uppercase tracking-[0.38em] text-pearl/40 sm:text-[9px]">
+              <p className="mt-2 font-sans text-[9px] font-medium uppercase tracking-[0.38em] text-champagne/90 [text-shadow:0_1px_6px_rgba(0,0,0,0.7)] sm:text-[10px]">
                 {photo.date}
               </p>
-              <p className="mt-3 font-serif text-[0.95rem] italic leading-relaxed text-pearl/60">{photo.note}</p>
+              <p className="mt-3 font-serif text-[1.05rem] font-semibold leading-relaxed text-pearl [text-shadow:0_1px_10px_rgba(0,0,0,0.75)]">
+                {photo.note}
+              </p>
             </motion.div>
           </motion.div>
         </motion.div>
